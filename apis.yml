@@ -1,7 +1,14 @@
 aid: alpharank
 name: Alpharank
-description: Alpharank is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alpharank is a no-code sales guidance and digital-origination analytics platform for banks and credit
+  unions. It analyzes funded loan and deposit applications to reveal which marketing tactics, channels,
+  and campaigns actually drive funded dollars, then guides institutions to optimize their online branch,
+  curb funnel abandonment, and turn ad spend into higher-quality leads. Its products include Optimizer,
+  AdSync, and CRMSync, and it serves roughly 200 financial institutions nationwide. Originally recognized
+  for turning payment transaction data into customer influence graphs, Alpharank is a 500 Startups / 500
+  Global portfolio company. As of this enrichment pass Alpharank publishes a marketing and client-login
+  presence but no public developer portal, API reference, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/alpharank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60ac03cd434a97e7a55fe7e7/60ba582b81f92b53f7c117c0_webclip.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Financial Services
+- Banking
+- Credit Unions
+- Analytics
+- Marketing
+- Fintech
+- Lead Generation
+- Digital Origination
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://silversentinel.ai
+  url: https://www.alpharank.ai
+- type: Login
+  url: https://app.alpharank.ai/
+- type: Blog
+  url: https://www.alpharank.ai/resources
+- type: Support
+  url: https://www.alpharank.ai/contact
+- type: TermsOfService
+  url: https://www.alpharank.ai/terms-of-service
+- type: DomainSecurity
+  url: security/alpharank-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
